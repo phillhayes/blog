@@ -25,7 +25,7 @@ SECRET_KEY = 'z44gzrrlp4%^gek*!s^w@5l+n)k7=1vd)ryy+l9cx=tymk*9=r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['powerful-depths-76526.herokuapp.com']
 
 
 # Application definition
