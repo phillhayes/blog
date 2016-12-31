@@ -13,8 +13,6 @@ pytz==2015.2
 requests==2.6.0
 six==1.9.0
 stravalib==0.5.0
-twilio==3.8.0
 units==0.6
-vboxapi==1.0
 virtualenv==15.1.0
 wsgiref==0.1.2
