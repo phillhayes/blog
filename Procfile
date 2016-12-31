@@ -1,1 +1,1 @@
-web: gunicorn app.wsgi --pythonpath ../blog --log-file -
+web: sh -c 'cd app && gunicorn blog.wsgi:application'
