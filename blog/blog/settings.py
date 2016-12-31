@@ -124,7 +124,7 @@ USE_TZ = True
 STATIC_ROOT = 'staticfiles'
 STATIC_URL = '/static/'
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, "/templates"),
+    os.path.join(BASE_DIR, "/blog/templates"),
     # here you can add another templates directory if you wish.
 )
 STATICFILES_DIRS = (
