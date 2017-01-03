@@ -1,6 +1,11 @@
-{% for category in categories %}
 
-<h2>{{category.name}}</h2>
-{{ category.description }}
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            {% for category in categories %}
 
-{% endfor %}
+            <li><a href="/categories/{{category.id}}">{{category.name}}</a></li>
+            
+
+            {% endfor %}
+        </ul>
+   

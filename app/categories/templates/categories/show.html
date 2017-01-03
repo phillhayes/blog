@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ category.title }}{% endblock %}
+
+{% block content %}
+<article>
+    <h2>{{ category.title }}</h2>
+    
+    <section>
+        {% for blog in category.blogpost_set.all %}
+            <h3>{{ blog.title }}</h3>
+            {{ blog.body }}
+        {% endfor %}
+    </section>
+</article>
+
+{% endblock %}

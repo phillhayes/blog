@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from django.core.urlresolvers import reverse
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 from . import views
 
@@ -24,3 +25,5 @@ url(r'^categories/', include('categories.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home),
 ]
+
+urlpatterns += staticfiles_urlpatterns()
