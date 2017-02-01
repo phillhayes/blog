@@ -22,8 +22,10 @@ from . import views
 
 urlpatterns = [
 url(r'^categories/', include('categories.urls')),
+url(r'^blog/', include('blogpost.urls')),    
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home),
+
 ]
 
 urlpatterns += staticfiles_urlpatterns()
