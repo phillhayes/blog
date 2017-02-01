@@ -9,6 +9,6 @@ DEBUG = True
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://klbmmkfsjdvcvu:bfa886f7ed4282f5ba334759bb83ba483c85fc7b62f51b7e1b29af2b690b0919@ec2-23-23-186-157.compute-1.amazonaws.com:5432/d413hlnpbnaa80')
+        default='postgres://iyryaqdtrktgwu:b877a6a3371d472f0f0681eb6abd9072dfce4dfc135497c9f785bcef0e5e812f@ec2-54-243-185-132.compute-1.amazonaws.com:5432/dbehmul6ht3sfn')
     
 }
